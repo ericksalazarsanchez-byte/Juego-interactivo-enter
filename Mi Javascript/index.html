@@ -7,7 +7,7 @@
     <style>
         /* Fondo oscuro y tipografía retro */
         body {
-            background-color: #0b0c10;
+            background-color: hsl(241, 92%, 35%);
             color: #c5c6c7;
             font-family: 'Courier New', Courier, monospace;
             display: flex;
@@ -47,7 +47,7 @@
             width: 60%;
             text-align: center;
             border-radius: 5px;
-            box-shadow: 0 0 10px #ff007f;
+            box-shadow: 0 0 10px #d61111;
             outline: none;
             margin-bottom: 15px;
         }
@@ -68,7 +68,7 @@
 
         button:hover {
             background-color: #66fcf1;
-            color: #000;
+            color: hsl(229, 94%, 30%);
             box-shadow: 0 0 20px #66fcf1, 0 0 40px #66fcf1;
         }
 
@@ -129,7 +129,7 @@
 <body>
 
     <div class="game-card" id="game-card">
-        <h1>Sweet sahumerio: Adivina un numero entre el 1 y el 100</h1>
+        <h1>Desafia tu suerte: Adivina un numero entre 1 y 100 </h1>
         
         <input type="number" id="inputIntento" placeholder="Ej: 42" autocomplete="off">
         <br>
@@ -142,7 +142,7 @@
         <img id="imgVictoria" src="https://media.giphy.com/media/7rj2ZgttvgomY/giphy.gif" alt="Victoria Hacker">
 
         <br>
-        <button id="btnReiniciar">Reiniciar Sistema</button>
+        <button id="btnReiniciar">Reiniciar</button>
     </div>
 
     <script src="script.js"></script>
